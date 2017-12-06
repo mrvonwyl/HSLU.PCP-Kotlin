@@ -1,3 +1,4 @@
+package excercises
 
 fun main(args: Array<String>){
     var dir: MutableList<Entry> = mutableListOf()
