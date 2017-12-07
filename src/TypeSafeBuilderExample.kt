@@ -4,6 +4,11 @@ fun main(args: Array<String>){
     println(result(args))
 }
 
+// type safe meint: die html syntax wird quasi durch den kotlin compiler überprüft
+// mögliche sub element sind in der implementation definiert
+// fehlerhaftes layout wird bereits zurkompilierzeit festgestellt
+
+// +"string" unaryPlus overloading
 
 fun result(args: Array<String>) =
         html {
