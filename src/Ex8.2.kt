@@ -6,5 +6,5 @@ fun main(args: Array<String>) {
 
 fun printNumbersAndSquares(numbers: IntArray){
     val numberlist: List<Int> = numbers.asList()
-    numberlist.forEach{number -> println(number.toString() +": " + number * number)}
+    numberlist.forEach{number -> println(number.toString() + ": " + number * number)}
 }
