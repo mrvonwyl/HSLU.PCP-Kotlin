@@ -1,12 +1,10 @@
 package excercises
 
 fun main(args: Array<String>){
-    if (args.size != 2) {
-        println("Please provide two factors as arguments")
-        return
-    }
+    val a = 3
+    val b = 4
 
-    println(sum(args[0].toInt(), args[1].toInt()))
+    println(sum(a, b))
 }
 
 fun sum(f1: Int, f2: Int): Int{

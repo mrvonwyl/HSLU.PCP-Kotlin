@@ -14,7 +14,7 @@ fun main(args: Array<String>) {
 class ProgramL{
     fun addTwoNumbers(a: Int, b:Int, action: (Int, Int) -> Int){
         val result =  action(a,b) // result = x + y = a + b = 2 + 7 = 9
-        println("Result of HighLebelFunctions: " + result)
+        println("Result of HighLevelFunctions: " + result)
 
     }
 }

@@ -1,5 +1,8 @@
 package excercises
 
+// type either
+// add <string> <int> (e.g. add tom 32)
+// check <string> (e.g. check tom)
 fun main(args: Array<String>){
     var dir: MutableList<Entry> = mutableListOf()
 
